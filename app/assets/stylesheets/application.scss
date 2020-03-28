@@ -7,6 +7,7 @@
 
 
 
+
 // ログイン画面
 
 .container-login {
@@ -26,6 +27,8 @@
 }
 
 
+
+
 // 「ログインしました」などのフラッシュ用スタイル
 
 .alert-notice {
@@ -34,6 +37,16 @@
 
 .alert-alert {
   @extend .alert-danger;
+}
+
+// top部分
+.carousel-item {
+  position: relative;
+}
+.title {
+  position: absolute;
+  top: 100px;
+
 }
 
 //  Contents部分
