@@ -1,1 +1,50 @@
 <%= render 'shared/flash_messages' %>
+  <div class="top-wrapper">
+    <div class="container">
+      <h1>Fire Fighting Equipment<br></h1>
+      <p>消防用設備の世界へようこそ</p>
+      <%# 新規登録ボタン %>
+      <div class="btn btn-danger signup signup-show">新規登録はこちら</div>
+    </div>
+  </div>
+  <hr class="devise-link my-5">
+
+  <%# Contents %>
+  <div class="ontainer-fluid padding">
+    <div class="row wlcome text-center">
+      <div class="col-12">
+        <h1>Contents</h1>
+      </div>
+      <hr class="devise-link my-5">
+    </div>
+  </div>
+
+  <%# Cards %>
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-imd-top" src="">
+          <div class=card-body>
+            <h4 class="card-title">消防用設備紹介</h4>
+            <p class="card-text">現在消防用設備等は全部で○○種類あります。その中のいくつかを紹介します。</p>
+            <%= link_to 'Check', '#', class: 'btn btn-danger' %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-imd-top" src="">
+          <div class=card-body>
+            <h4 class="card-title">消防用設備等検索</h4>
+            <p class="card-text">建物情報を入力すると、必要な設備が分かります。</p>
+            <%= link_to 'Check', '#', class: 'btn btn-danger' %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

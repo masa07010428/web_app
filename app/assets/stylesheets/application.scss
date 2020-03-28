@@ -1,5 +1,12 @@
 @import "bootstrap";
 
+// ナビバー
+.navbar-dark .navbar-toggler {
+  border-color: rgba(0,0,0,0);
+}
+
+
+
 // ログイン画面
 
 .container-login {
@@ -7,6 +14,17 @@
   max-width: 576px;
   padding: 2rem;
 }
+
+.top-wrapper {
+  padding: 180px 0 215px 0;
+  background-image: url(syokaki.png);
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  background-size: 50% auto;
+  color: rgb(70, 66, 66);
+  text-align: center;
+}
+
 
 // 「ログインしました」などのフラッシュ用スタイル
 

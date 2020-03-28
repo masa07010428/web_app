@@ -1,8 +1,10 @@
 <header>
-  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-  <div class="container-fluid">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark mt-3 mb-3">
     <%= link_to "Fire Fighting Equipment", root_path, class: 'navbar-brand' %>
-    <div id="Navber">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav3" >
       <ul class="navbar-nav">
         <% if user_signed_in? %>
           <li class="nav-item active">
@@ -34,4 +36,5 @@
       </ul>
     </div>
   </nav>
+  
 </header>
