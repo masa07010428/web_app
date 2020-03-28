@@ -17,7 +17,7 @@
 
 .top-wrapper {
   padding: 180px 0 215px 0;
-  background-image: url(syokaki.png);
+  background-image: url(syoukaki.png);
   background-color: rgba(255,255,255,0.6);
   background-blend-mode: lighten;
   background-size: 50% auto;
@@ -34,4 +34,23 @@
 
 .alert-alert {
   @extend .alert-danger;
+}
+
+//  Contents部分
+.container-fluid {
+  padding-bottom: 50px;
+}
+
+.card-imd-top {
+  max-width: 50%;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+
+// footer部分
+.footer {
+  background: #343a40;
+  text-align: center;
+  color : #ffffff;
 }
