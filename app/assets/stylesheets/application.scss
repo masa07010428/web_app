@@ -1,5 +1,12 @@
 @import "bootstrap";
 // 全体
+body,
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 h1,h4{
   color: rgb(95, 95, 95);
 }
@@ -17,9 +24,18 @@ p {
   border-color: rgba(0,0,0,0);
 }
 
+.nav-link {
+  font-size: 1em;
+}
 
 
 
+
+
+// 新規登録画面
+.container {
+  padding-top: 79px;
+}
 // ログイン画面
 
 .container-login {
@@ -58,7 +74,10 @@ p {
 .title {
   position: absolute;
   top: 100px;
+}
 
+.top-container {
+  padding: 75px 10px 0 10px;
 }
 
 //  Contents部分
@@ -79,7 +98,10 @@ p {
 
 // footer部分
 .footer {
-  background: #343a40;
+  width: 100%;
   text-align: center;
+  background: #343a40;
   color : #ffffff;
+  margin-top: auto;
+
 }
