@@ -1,0 +1,2 @@
+class FloorArea < ApplicationRecord
+end

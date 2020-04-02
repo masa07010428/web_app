@@ -1,0 +1,2 @@
+class Windowless < ApplicationRecord
+end

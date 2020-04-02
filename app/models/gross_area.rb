@@ -1,0 +1,2 @@
+class GrossArea < ApplicationRecord
+end
